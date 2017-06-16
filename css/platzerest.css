@@ -14,6 +14,10 @@ ul {
 	margin: 0;
 }
 
+a {
+	text-decoration:none; 
+}
+
 /*Selector id*/
 #header {
 	height: 40px;
@@ -76,4 +80,105 @@ ul {
 	opacity:0.5 !important;
 	box-shadow: 0 0 0px #000000 !important;
 }
+
+#posts {
+	width: 960px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#posts article {
+	width: 300px;
+	background-color: white;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+#posts article:hover {
+	background-color: #f7f5f5;
+	cursor: url('../images/zoom.png'), auto;
+}
+
+#posts article .picture:hover {
+	cursor: url('../images/zoom.png'), auto;
+}
+
+#posts article:hover .picture-details{
+	background-color: #f7f5f5;
+}
+#posts article:hover .picture-details strong{
+	background-color: #f7f5f5;
+}
+#posts article:hover .picture-details p{
+	background-color: #f7f5f5;
+}
+#posts article:hover a #user{
+	background-color: #f7f5f5;
+}
+#posts article:hover a #user .user-data h2{
+	background-color: #f7f5f5;
+}
+#posts article:hover a #user .user-data p{
+	background-color: #f7f5f5;
+}
+
+.modal {
+	display: none;
+}
+
+.picture {
+	border-radius: 10px;
+}
+
+.photo-user-profile {
+	border-radius: 50%
+}
+
+.picture-details {
+	margin-top: 10px;
+}
+
+.picture-details:hover {
+	cursor: url('../images/zoom.png'), auto;
+}
+
+.picture-details strong {
+	color: #000;
+}
+
+.picture-details p {
+	font-size: 13px;
+	color: #b0b0b0;
+}
+
+.user-profile {
+	margin-top: 10px;
+}
+
+#user {
+	display: block;
+}
+
+#user .photo-user-profile {
+	display: inline-block;
+}
+
+#user .user-data {
+	display: inline-block;
+}
+
+#user .user-data h2 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+}
+
+#user .user-data p {
+	font-size: 13px;
+	color: #555;
+}
+
+
+
+
 

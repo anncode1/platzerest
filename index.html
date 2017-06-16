@@ -35,36 +35,41 @@
 		</header>
 		<section id="posts"> <!-- posts -->
 			<article id="post-1"><!-- post -->
-				<div id="picture-detail"><!-- picture-detail -->
-					<img src="http://loremflickr.com/300/250/people?random=1"><!-- picture -->
-					<div><!-- picture-details -->
+				<a href="#"><!-- enlace con el modal -->
+					<img src="http://lorempixel.com/300/250/people/2/" class="picture"> <!-- picture -->
+					<div class="picture-details"><!-- picture-details -->
 						<strong>Paris 1</strong>
 						<p>Elegido para ti</p>	
 					</div>
-				</div>
-				<div id="user-profile"><!-- user-profile -->
-					<a href="pages/profile.html">
-						<img src="http://loremflickr.com/50/50/face?random=1"><!-- photo-user-profile -->
-						<h2>Anahí Salgado</h2><!-- username-profile -->
-						<p>People</p><!-- category-picture-user -->
-					</a>
-				</div>
+				</a>
+			
+				<a href="pages/profile.html">
+					<div id="user" class="user-profile"><!-- user-profile -->
+					
+						<img src="http://lorempixel.com/40/40/people/1/" class="photo-user-profile" width="40"><!-- photo-user-profile -->
+						<div class="user-data"> <!-- user-data -->
+							<h2>Anahí Salgado</h2><!-- username-profile -->
+							<p>People</p><!-- category-picture-user -->	
+						</div>
+					
+					</div>
+				</a>
 
-				<div id="modal-1"><!-- modal -->
+				<div id="modal-1" class="modal"><!-- modal -->
 				  	<div><!-- modal-content -->
 					    <span>X</span><!-- close-modal -->
 					    <div><!-- picture-detail -->
-							<div><!-- header-picture-detail -->
+							<div class="header-picture-detail"><!-- header-picture-detail -->
 								<a href="#"><span>Guardar</span></a>
 							</div>
-							<img src="http://loremflickr.com/500/350/people?random=1"><!-- picture -->
-							<div><!-- picture-details -->
+							<!-- <img src="http://lorempixel.com/300/250/people/2/" class="picture"> --><!-- picture -->
+							<div class="picture-details"><!-- picture-details -->
 								<strong>Paris 1</strong>
 							</div>
 						</div>
-						<div><!-- user-profile -->
+						<div ><!-- user-profile -->
 							<a href="pages/profile.html">
-								<img src="http://loremflickr.com/50/50/face?random=1"><!-- photo-user-profile -->
+								<!-- <img src="http://lorempixel.com/40/40/people/1/" class="photo-user-profile" width="40"><!-- photo-user-profile --> 
 								<h2>Anahí Salgado</h2><!-- username-profile -->
 								<p>People</p><!-- category-picture-user -->
 							</a>
