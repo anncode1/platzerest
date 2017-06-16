@@ -237,4 +237,18 @@ a {
 }
 
 
+#registry-form {
+	width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+}
 
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+footer img {
+	width: 400px;
+	height: 200px;
+}
