@@ -1,0 +1,19 @@
+/*Selectori Universal*/
+* {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	background: white;
+	/*margin: 10px;
+	border: 2px solid red;*/
+}
+
+/*Selector Etiquetas*/
+ul {
+	list-style-type:none
+}
+
+/*Selector id*/
+#header {
+	width: 100%;
+	border-bottom: 0.5px solid #efefef;
+}
