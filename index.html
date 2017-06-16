@@ -2,22 +2,153 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
+		<link rel="shortcut icon" href="images/platzerest.ico">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/platzerest.css">
 		<title>Platzerest</title>
 	</head>
 	<body>
-		<header><!-- header -->
+		<header id="header"><!-- header -->
 			<section><!-- logotipo -->
-
+				<figure>
+					<a href="index.html">
+						<img src="images/platzerest.png" alt="Logotipo" width="40"/>
+					</a>
+				</figure>
 			</section>
 
-			<section><!-- search -->
-
+			<section id="search"><!-- search -->
+				<input type="text" placeholder="Buscar" />
 			</section>
 
 			<section><!-- menu -->
-
+				<nav id="menu">
+					<ul>
+						<li>
+							<a href="pages/registry.html">
+								<img src="images/registry.png" alt="Registry" width="40"/>
+							</a>
+						</li>
+					</ul>
+				</nav>
 			</section>
 		</header>
-		
+		<section id="posts"> <!-- posts -->
+			<article id="post-1"><!-- post -->
+				<a id="image-modal-1" href="#modal-1" onclick="openModal()"><!-- enlace con el modal -->
+					<img src="http://lorempixel.com/300/250/people/2/" class="picture"> <!-- picture -->
+					<div class="picture-details"><!-- picture-details -->
+						<strong>Paris 1</strong>
+						<p>Elegido para ti</p>	
+					</div>
+				</a>
+			
+				<a href="pages/profile.html">
+					<div id="user" class="user-profile"><!-- user-profile -->
+					
+						<img src="http://lorempixel.com/40/40/people/1/" class="photo-user-profile" width="40"><!-- photo-user-profile -->
+						<div class="user-data"> <!-- user-data -->
+							<h2>Anahí Salgado</h2><!-- username-profile -->
+							<p>People</p><!-- category-picture-user -->	
+						</div>
+					
+					</div>
+				</a>
+			</article>
+			
+			<article id="post-2"><!-- post -->
+				<a id="image-modal-2" href="#modal-2" onclick="openModal()"><!-- enlace con el modal -->
+					<img src="http://lorempixel.com/300/250/people/3/" class="picture"> <!-- picture -->
+					<div class="picture-details"><!-- picture-details -->
+						<strong>Paris 1</strong>
+						<p>Elegido para ti</p>	
+					</div>
+				</a>
+			
+				<a href="pages/profile.html">
+					<div id="user" class="user-profile"><!-- user-profile -->
+					
+						<img src="http://lorempixel.com/40/40/people/4/" class="photo-user-profile" width="40"><!-- photo-user-profile -->
+						<div class="user-data"> <!-- user-data -->
+							<h2>Anahí Salgado</h2><!-- username-profile -->
+							<p>People</p><!-- category-picture-user -->	
+						</div>
+					
+					</div>
+				</a>
+			</article>
+
+			<article id="post-3"><!-- post -->
+				<a id="image-modal-3" href="#modal-3" onclick="openModal()"> <!-- enlace con el modal -->
+					<img src="http://lorempixel.com/300/250/people/5/" class="picture"> <!-- picture -->
+					<div class="picture-details"><!-- picture-details -->
+						<strong>Paris 1</strong>
+						<p>Elegido para ti</p>	
+					</div>
+				</a>
+			
+				<a href="pages/profile.html">
+					<div id="user" class="user-profile"><!-- user-profile -->
+					
+						<img src="http://lorempixel.com/40/40/people/6/" class="photo-user-profile" width="40"><!-- photo-user-profile -->
+						<div class="user-data"> <!-- user-data -->
+							<h2>Anahí Salgado</h2><!-- username-profile -->
+							<p>People</p><!-- category-picture-user -->	
+						</div>
+					
+					</div>
+				</a>
+			</article>
+
+			<article id="post-4"><!-- post -->
+				<a id="image-modal-4" href="#modal-4" onclick="openModal()"> <!-- enlace con el modal -->
+					<img src="http://lorempixel.com/300/250/people/7/" class="picture"> <!-- picture -->
+					<div class="picture-details"><!-- picture-details -->
+						<strong>Paris 1</strong>
+						<p>Elegido para ti</p>	
+					</div>
+				</a>
+			
+				<a href="pages/profile.html">
+					<div id="user" class="user-profile"><!-- user-profile -->
+					
+						<img src="http://lorempixel.com/40/40/people/8/" class="photo-user-profile" width="40"><!-- photo-user-profile -->
+						<div class="user-data"> <!-- user-data -->
+							<h2>Anahí Salgado</h2><!-- username-profile -->
+							<p>People</p><!-- category-picture-user -->	
+						</div>
+					
+					</div>
+				</a>
+			</article> 
+
+			<div id="modal-1" class="modal"><!-- modal -->
+			  	<div class="modal-content"><!-- modal-content -->
+				    <div class="header-picture-detail"><!-- header-picture-detail -->
+						<a class="modal-save-button" href="#"><span>Guardar</span></a>
+						<span class="close">&times;</span><!-- close-modal -->
+					</div>
+
+					
+
+					<img src="http://lorempixel.com/500/450/people/2/" class="picture"><!-- picture -->
+					<div class="picture-details"><!-- picture-details -->
+						<strong>Paris 1</strong>
+					</div>
+
+					<a href="pages/profile.html">
+						<div id="user" class="user-profile"><!-- user-profile -->
+							<img src="http://lorempixel.com/40/40/people/1/" class="photo-user-profile" width="40"><!-- photo-user-profile -->
+							<div class="user-data"> <!-- user-data -->
+								<h2>Anahí Salgado</h2><!-- username-profile -->
+								<p>People</p><!-- category-picture-user -->	
+							</div>
+						</div>
+					</a>
+
+			  	</div>
+			</div>
+		</section>
 	</body>
+	<script type="text/javascript" src="js/platzerest.js"></script>
 </html>

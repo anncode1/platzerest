@@ -1,0 +1,254 @@
+/*Selectori Universal*/
+* {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	background: white;
+	/*margin: 10px;
+	border: 2px solid red;*/
+}
+
+/*Selector Etiquetas*/
+ul {
+	list-style-type:none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration:none; 
+}
+
+/*Selector id*/
+#header {
+	height: 40px;
+	width: 100%;
+	border-bottom: 0.5px solid #efefef;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 15px 0px;
+}
+
+
+#header input {
+	top: 0;
+	width: 960px;
+	box-shadow: none;
+	border-radius: 0;
+	padding: 7px;
+	background: #efefef;
+	font-size: 16px;
+	font-weight: bold;
+	color: #757575;
+	border: solid 1px #efefef;
+	font-weight: normal;
+	border-radius: 4px;
+	margin: 0px 15px 0px 15px;
+}
+
+#header input:focus {
+	outline: none;
+  	box-shadow: 0 0 5px 1px #d0cfcf;
+}
+
+#header input::-webkit-input-placeholder {
+	font-size: 16px;
+    color: #757575;
+    font-weight: bold;
+}
+#header input:-moz-placeholder {
+	font-size: 16px;
+    color: #757575;
+    font-weight: bold;
+}
+#header input:-ms-input-placeholder {
+	font-size: 16px;
+    color: #757575;
+    font-weight: bold;
+}
+
+/*Selector descendiente*/
+#header figure {
+	margin-left: 40px;
+}
+
+#header nav {
+	margin-right: 40px;
+}
+
+#header figure img:hover {
+	opacity:0.5 !important;
+	box-shadow: 0 0 0px #000000 !important;
+}
+
+#posts {
+	width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+	display: flex;
+    flex-wrap: wrap;
+}
+
+#posts article {
+	width: 300px;
+	background-color: white;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+#posts article:hover {
+	background-color: #f7f5f5;
+	cursor: url('../images/zoom.png'), auto;
+}
+
+#posts article .picture:hover {
+	cursor: url('../images/zoom.png'), auto;
+}
+
+#posts article:hover .picture-details{
+	background-color: #f7f5f5;
+}
+#posts article:hover .picture-details strong{
+	background-color: #f7f5f5;
+}
+#posts article:hover .picture-details p{
+	background-color: #f7f5f5;
+}
+#posts article:hover a #user{
+	background-color: #f7f5f5;
+}
+#posts article:hover a #user .user-data h2{
+	background-color: #f7f5f5;
+}
+#posts article:hover a #user .user-data p{
+	background-color: #f7f5f5;
+}
+
+
+.picture {
+	border-radius: 10px;
+}
+
+.photo-user-profile {
+	border-radius: 50%
+}
+
+.picture-details {
+	margin-top: 10px;
+}
+
+.picture-details:hover {
+	cursor: url('../images/zoom.png'), auto;
+}
+
+.picture-details strong {
+	color: #000;
+}
+
+.picture-details p {
+	font-size: 13px;
+	color: #b0b0b0;
+}
+
+.user-profile {
+	margin-top: 10px;
+}
+
+#user {
+	display: block;
+}
+
+#user .photo-user-profile {
+	display: inline-block;
+}
+
+#user .user-data {
+	display: inline-block;
+}
+
+#user .user-data h2 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+}
+
+#user .user-data p {
+	font-size: 13px;
+	color: #555;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+    height: 700px;
+}
+
+.header-picture-detail {
+	display: flex;
+	justify-content: space-between;
+}
+.modal-save-button {
+	background: #bd081c;
+	padding: 13px;
+	border-radius: 7px;
+	color: white;
+	text-decoration:none;
+	margin-bottom: 10px;
+}
+
+.modal-save-button span{
+  padding-left: 28px;
+  padding-bottom: 8px;
+  background: url("../images/pin.png") no-repeat;
+}
+
+
+#registry-form {
+	width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+footer img {
+	width: 400px;
+	height: 200px;
+}

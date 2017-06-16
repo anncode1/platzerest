@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="shortcut icon" href="../images/platzerest.ico">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../css/platzerest.css">
+		<title>Platzerest</title>
+	</head>
+	<body>
+		<header id="header"><!-- header -->
+			<section><!-- logotipo -->
+				<figure>
+					<a href="../index.html">
+						<img src="../images/platzerest.png" alt="Logotipo" width="40"/>
+					</a>
+				</figure>
+			</section>
+
+			<section id="search"><!-- search -->
+				<input type="text" value="Buscar" />
+			</section>
+
+			<section><!-- menu -->
+				<nav>
+					<ul>
+						<li>
+							<a href="registry.html">
+								<img src="../images/registry.png" alt="Registry" width="40"/>
+							</a>
+						</li>
+				</nav>
+			</section>
+		</header>
+		
+		<section id="registry-form"> <!-- registry -->
+			<h1>Registro</h1><!-- title-registry -->
+			<form class="form">
+				<input id="name" name="name" type="text" placeholder="Nombre" required />
+				
+				<input id="email" name="email" type="email" placeholder="E-mail" required id="email" name="email"/>
+
+            	<label for="mujer">
+				<input type="radio" id="mujer" checked name="sexo" value="mujer"> mujer
+				</label>
+				<label for="hombre">
+				<input type="radio" id="hombre" name="sexo" value="hombre"> hombre
+				</label>
+
+				<label for="deportes">
+                <input type="checkbox" checked id="deportes" name="intereses" value="deportes"> Deportes
+				</label>
+				<label for="personas">
+				<input type="checkbox" id="personas" name="intereses" value="personas"> Personas
+				</label>
+				<label for="gatitos">
+				<input type="checkbox" id="gatitos" name="intereses" value="gatitos"> Gatitos
+				</label>
+
+				<textarea name="comantarios" id="comentarios" cols="30" rows="7"></textarea>
+
+				<input type="submit" value="Enviar" class="button"/>
+			</form>
+		</section>
+		<footer>
+			<img src="../images/platzerest-logo.png" alt="Platzerest" width="400"/>
+		</footer>
+	</body>
+</html>
