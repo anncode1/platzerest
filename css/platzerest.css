@@ -101,6 +101,22 @@ a {
 	cursor: url('../images/zoom.png'), auto;
 }
 
+#posts article:hover #image-modal-1{
+	background-color: #f7f5f5;
+}
+
+#posts article:hover #image-modal-2{
+	background-color: #f7f5f5;
+}
+
+#posts article:hover #image-modal-3{
+	background-color: #f7f5f5;
+}
+
+#posts article:hover #image-modal-4{
+	background-color: #f7f5f5;
+}
+
 #posts article .picture:hover {
 	cursor: url('../images/zoom.png'), auto;
 }
